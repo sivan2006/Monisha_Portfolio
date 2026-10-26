@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Monisha | Web Developer Portfolio</title>
+<link rel="stylesheet" href=app.css></style>
+   
+</head>
+
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">Monisha.</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button
+                class="theme-btn"
+                id="themeToggle"
+                type="button"
+                aria-label="Toggle light and dark mode">
+                ☀️ / 🌙
+            </button>
+        </nav>
+    </header>
+
+    <!-- ===== HOME SECTION ===== -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Monisha</span></h1>
+
+            <h2>
+                Aspiring
+                <span class="job-title" id="jobTitle">Web Developer</span>
+            </h2>
+
+            <p>
+                Information Technology Student | Frontend Development Enthusiast
+            </p>
+
+            <p>
+                I enjoy creating responsive, interactive and user-friendly
+                websites using modern web technologies.
+            </p>
+
+            <a href="#projects" class="btn">Explore My Projects ↗</a>
+
+            <a href="MONISHA S1.docx" class="btn" download>
+                Download Resume ↓
+            </a>
+        </div>
+
+        <div class="profile-image">
+            <img
+                src="MONISHAIMG.png"
+                alt="Monisha's profile photo"
+                onerror="this.onerror=null; this.src='https://placehold.co/400x400/1e293b/38bdf8?text=Your+Photo';">
+        </div>
+
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+
+    <section id="about">
+        <h2 class="title">About <span>Me</span></h2>
+
+        <div class="about-content">
+            <p>
+                Hello! I'm Monisha, an Information Technology student
+                interested in web development and software technologies.
+            </p>
+
+            <p>
+                I am learning HTML, CSS, JavaScript, React.js and Python. I enjoy building websites and improving my technical skills
+                through practice and projects.
+            </p>
+
+            <p>
+                My goal is to become a skilled web developer and gain
+                practical experience by working on real-world projects.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+
+    <section id="skills">
+        <h2 class="title">My <span>Skills</span></h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Frontend Development</h3>
+
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 75%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 55%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 30%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>React.js</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 40%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Programming</h3>
+
+                <div class="skill">
+                    <p>Python</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 15%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 30%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Tools & Technologies</h3>
+                <p>Git and GitHub</p>
+                <p>VS Code</p>
+                <p>Responsive Web Design</p>
+                <p>REST API Basics</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+
+    <section id="projects">
+        <h2 class="title">My <span>Projects</span></h2>
+
+        <div class="card-container">
+
+            <div class="project-card">
+                <h3>OptiRoute AI</h3>
+
+                <p>
+                    An AI-based last-mile delivery route optimization
+                    project designed to support efficient delivery planning,
+                    estimated arrival time prediction and multi-driver routing.
+                </p>
+
+                <p><strong>My contribution:</strong> Frontend dashboard
+                    development and integration.</p>
+
+                <div>
+                    <span class="tag">React.js</span>
+                    <span class="tag">Dashboard</span>
+                    <span class="tag">Maps</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    A responsive portfolio website to introduce my skills,
+                    education, projects and contact information.
+                </p>
+
+                <div>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+
+    <section id="education">
+        <h2 class="title">My <span>Education</span></h2>
+
+        <div class="education-card">
+            <h3>Bachelor's Degree in Information Technology</h3>
+
+            <p>
+                <strong>Institution:</strong>
+                PSV college of engineering and technology.
+            </p>
+
+            <p>
+                <strong>Duration:</strong>
+                2023 to 2027.
+            </p>
+
+            <p>
+                <strong>Focus Areas:</strong>
+                Web Development,UI/UX, Programming and Software Technologies.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+
+    <section id="contact">
+        <h2 class="title">Contact <span>Me</span></h2>
+
+        <p class="contact-intro">
+            Let's connect! Feel free to contact me about opportunities
+            and collaborations.
+        </p>
+
+        <div class="card-container">
+
+            <div class="card contact-card">
+                <h3>📧 Email</h3>
+                <p>monisha282006@gmail.com</p>
+
+                <a
+                    class="btn"
+                    href="mailto:monisha282006@gmail.com">
+                    Send Email
+                </a>
+            </div>
+
+            <div class="card contact-card">
+                <h3>📱 Phone</h3>
+                <p>6381868884</p>
+
+                <a class="btn" href="tel:6381868884">
+                    Call Me
+                </a>
+            </div>
+
+            <div class="card contact-card">
+                <h3>💼 LinkedIn</h3>
+                <p>Connect with me professionally.</p>
+
+                <a
+                    class="btn"
+                    href="https://www.linkedin.com/in/monisha-sivan-64257a3a2"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Visit LinkedIn
+                </a>
+            </div>
+
+            <div class="card contact-card">
+                <h3>💻 GitHub</h3>
+                <p>Explore my coding projects.</p>
+
+                <a
+                    class="btn"
+                    href="https://www.linkedin.com/in/monisha-sivan-64257a3a2"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Visit GitHub
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+
+    <footer>
+        <p>
+            © <span id="year"></span>
+            <span>Monisha</span>. All rights reserved.
+        </p>
+    </footer>
+
+       <script>
+        // Dark mode and light mode toggle
+
+        const themeToggle = document.getElementById("themeToggle");
+
+        themeToggle.addEventListener("click", function () {
+            document.body.classList.toggle("light-mode");
+
+            const isLight =
+                document.body.classList.contains("light-mode");
+
+            themeToggle.textContent = isLight ? "🌙 Dark Mode" : "☀️ Light Mode";
+        });
+
+        // Animated job titles
+
+        const jobTitles = [
+            "Web Developer",
+            "Frontend Developer",
+            "React.js Learner",
+            "Software Developer",
+            "UI/UX"
+        ];
+
+        let titleIndex = 0;
+
+        const jobTitle = document.getElementById("jobTitle");
+
+        setInterval(function () {
+            titleIndex = (titleIndex + 1) % jobTitles.length;
+            jobTitle.textContent = jobTitles[titleIndex];
+        }, 2000);
+
+        // Automatically update the footer year
+
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>
